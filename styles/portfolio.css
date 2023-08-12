@@ -136,3 +136,16 @@ main {
  .about-info{
     text-align: center;
  }
+
+#what-i-do-description{
+    padding: 30px 150px;
+}
+
+.skills-container{
+    width: 267px;
+    height: 377px;
+    flex-shrink: 0; 
+    border-radius: 5px;
+    background: #FFF;
+    align-items: center;
+}
