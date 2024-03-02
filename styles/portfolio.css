@@ -1,18 +1,18 @@
 /* common shared styles */
-body{
+body {
 
     font-family: 'Open Sans', sans-serif;
-    font-family: 'Lato' , sans-serif;
+    font-family: 'Lato', sans-serif;
 
-} 
+}
 
-.text-primary{
+.text-primary {
 
-     color: #FD6E0A;
- }
+    color: #FD6E0A;
+}
 
 
- .btn-primary {
+.btn-primary {
     border-radius: 5px;
     background-color: #FD6E0A;
     border: 0;
@@ -23,17 +23,18 @@ body{
 
 }
 
-.section-title{
+.section-title {
     color: #181818;
     text-align: center;
     font-size: 35px;
     font-weight: 700;
 }
+
 .section-description {
     color: #757575;
     text-align: center;
     font-size: 18px;
-    
+
 }
 
 
@@ -54,13 +55,15 @@ nav {
     line-height: normal;
 }
 
-nav > ul{
+nav>ul {
     display: flex;
     align-items: center;
 }
-nav li 
-     {list-style: none;
-     margin-right: 50px;}
+
+nav li {
+    list-style: none;
+    margin-right: 50px;
+}
 
 nav a {
     text-decoration: none;
@@ -84,18 +87,18 @@ nav a {
     justify-content: space-between;
 }
 
-.banner-content{
-    max-width: 500px;   
+.banner-content {
+    max-width: 500px;
 
 }
 
-.banner .profile-picture{
+.banner .profile-picture {
     width: 500px;
 }
 
 .banner-greeting {
     font-size: 45px;
-    font-style: normal ;
+    font-style: normal;
     color: #474747;
     margin-bottom: 0;
 }
@@ -103,12 +106,12 @@ nav a {
 .banner-title {
     font-size: 85px;
     font-style: normal;
-    margin-top: 5px ;
+    margin-top: 5px;
 }
 
-.banner-description{
-    margin-top: 20px ;
-   
+.banner-description {
+    margin-top: 20px;
+
 }
 
 /* main section styles */
@@ -117,35 +120,63 @@ main {
     max-width: 1140px;
     margin: 0 auto;
 }
+main > section {
 
+    margin-top: 130px;
+}
 
 /* about section styles */
 
- .about{
+.about {
     padding: 130px;
     border-radius: 10px;
     background: #fff8f3;
     margin: 130px 0;
 
- }  
+}
 
- .about-info-container {
+.about-info-container {
     display: flex;
     justify-content: space-around;
- }
- .about-info{
-    text-align: center;
- }
+}
 
-#what-i-do-description{
+.about-info {
+    text-align: center;
+}
+
+/* Skill related styles */
+
+#what-i-do-description {
     padding: 30px 150px;
 }
 
-.skills-container{
-    width: 267px;
-    height: 377px;
-    flex-shrink: 0; 
+.skills-container {
+
+    display: flex;
+    gap: 24px;
+
+}
+
+.skills {
+    padding: 30px;
     border-radius: 5px;
     background: #FFF;
-    align-items: center;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+
+}
+
+.skill-description {
+
+    color:  #757575;
+}
+
+/* resume section styles */
+
+.resume-column-title{
+    color: #474747;
+    font-family: Open Sans;
+    font-weight: 700;
+  
+
+
 }
